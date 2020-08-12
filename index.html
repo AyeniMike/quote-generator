@@ -7,26 +7,26 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <!-- Quotes go here -->
     <div class="quote-container" id="quote-container">
       <!-- Quote -->
       <div class="quote-text">
-        <i class="fa fa-quote-left"></i>
-        <span id="quote"
-          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-          veniam?</span
-        >
+        <span id="quote"></span>
       </div>
       <div class="quote-author">
-        <span id="author">Mike Ayeni</span>
-      </div>
-      <!-- Buttons -->
-      <div class="button-container">
-        <button class="twitter-button" id="tweeter" title="Tweet This!">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </button>
-        <button class="new-quote">New Quote</button>
+        <span id="author"></span>
       </div>
     </div>
-    <script src="index.js"></script>
+    <!-- Loader  -->
+    <div class="loader"></div>
+    <!-- Buttons -->
+    <div class="button-container">
+      <button class="twitter-button" id="twitter" title="Tweet This!">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </button>
+      <button class="new-quote">New Quote</button>
+    </div>
+    <div id="no-data"></div>
+    <script src="app.js"></script>
   </body>
 </html>
